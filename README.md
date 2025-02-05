@@ -1,4 +1,4 @@
-# Kiel Climate Model: Internship at Kiel University
+# Kiel Climate Model: Internship at Christian-Albrechts-University Kiel
 
 ## Mathematics and Computer Science Department
 
