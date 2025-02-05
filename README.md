@@ -15,7 +15,7 @@
   - [Plotting the Chosen Singular Values](#Plotting-the-Chosen-Singular-Values)
   - [Data Reconstruction](#Data-Reconstruction)
   - [Reshaping and Comparison](#Reshaping-and-Comparison)
-  - [Model Testing on Test Dataset (`Parameter 00000`)](#Model-Testing-on-Test-Dataset-`Parameter-00000`)
+  - [Model Testing on Test Dataset (`Parameter 00000`)](#Model-Testing-on-Test-Dataset-Parameter-00000)
   - [Error Analysis](#Error-Analysis)
 - [Inference](#Inference)
 - [Conclusion](#Conclusion)
