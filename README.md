@@ -19,7 +19,8 @@
   - [Error Analysis](#Error-Analysis)
 - [Inference](#Inference)
 - [Conclusion](#Conclusion)
-
+- [Project Status](#Project-Status)
+- [License](#License)
 
 ## Objective
 
@@ -84,7 +85,6 @@ During my two-month internship at Kiel University, I worked in the Mathematics a
 ## Conclusion
 
 The internship at Kiel University provided valuable hands-on experience in statistical data analysis using Python. I successfully completed tasks such as:
-
 ✔ Efficient PETSc file reading  
 ✔ Data preparation, reshaping, reduction, and transformation  
 ✔ Matrix construction and regularization  
@@ -93,3 +93,9 @@ The internship at Kiel University provided valuable hands-on experience in stati
 ✔ Error analysis  
 
 I extend my heartfelt gratitude to **Professor Dr. Thomas Slawig** for this opportunity and to the Mathematics and Computer Science department team for their guidance and support. This experience has significantly contributed to my professional growth.
+
+## Project Status
+This project is **completed** as my internship at **Christian-Albrechts-University Kiel** has ended.
+
+## License
+This project is licensed under the [RESTRICTED ACCESS LICENSE](LICENSE).
