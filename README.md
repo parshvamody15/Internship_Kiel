@@ -29,7 +29,7 @@ During my two-month internship at Kiel University, I worked in the Mathematics a
 ## Tasks Performed
 
 ### Data Preparation
-- Read `.petsc` files from the folders `Parameter 00000` to `Parameter 00099` using an optimized method.
+- Read `.petsc` files from the folders `Parameter 00000` to `Parameter 00099` (Directory: [N_100](N_100)) using an optimized method.
 - Used the `read_PETSc_vec` function for file reading, streamlining data acquisition.
 - Read the `landSeaMask.petsc` file using the `read_PETSc_matrix` function for further analysis.
 
