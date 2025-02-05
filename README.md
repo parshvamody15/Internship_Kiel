@@ -33,6 +33,9 @@ During my two-month internship at Kiel University, I worked in the Mathematics a
 - Used the `read_PETSc_vec` function for file reading, streamlining data acquisition.
 - Read the `landSeaMask.petsc` file using the `read_PETSc_matrix` function for further analysis.
 
+**📷 Land-Sea Mask Plot**
+![Land-Sea Mask](Images/LandSeaMask.png)
+
 ### Data Reshaping and Reduction
 - Reshaped all datasets into a 3D vector using the `reshape_vector_to_3d` function, utilizing `landSeaMask.petsc` as a reference.
 - Extracted relevant data from the upper surface after reshaping.
@@ -54,8 +57,14 @@ During my two-month internship at Kiel University, I worked in the Mathematics a
 - After performing the Singular Value Decomposition, I plotted the curve for the singular value for every dataset. This plot helped me determine the number of singular values required to represent the data accurately.
 - I also calculated the percentage of data that could be represented by dividing the sum of the squares of the chosen values by the sum of the squares of all singular values.
 
+**📷 Singular Value Selection Plot**
+![Singular Value Selection](Images/SValuesCurve.png)
+
 ### Plotting the Chosen Singular Values
 - After selecting the required Singular Values, I plotted them as a world map. Below is an example of the plot of a Singular Value.
+
+**📷 Reshaped vh[0] World Map**
+![Singular Value World Map](Images/Reshapedvh[0]Vector.png)
 
 ### Data Reconstruction
 - Reconstructed all datasets using selected singular values (truncated) from the SVD calculation.
@@ -65,6 +74,12 @@ During my two-month internship at Kiel University, I worked in the Mathematics a
 - Reshaped the reconstructed and training datasets into 2D fields for visualization.
 - Plotted both fields, replacing zero values with NaN for better clarity.
 - Compared the original and reconstructed training datasets to assess accuracy.
+
+**📷 Reshaped vs. Original Data**
+![Reconstruction Comparison](Images/Comparison.png)
+
+**📷 Test Dataset Reconstruction**
+![Test Dataset](Images/Reconstructed.png)
 
 ### Model Testing on Test Dataset (`Parameter 00000`)
 - Found coefficients by computing the dot product between the test dataset and the truncated right singular vector values.
